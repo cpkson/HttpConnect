@@ -1,4 +1,4 @@
-package com.travelplaces.httpConnector;
+package main.com.travelplaces.httpConnector;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -9,7 +9,7 @@ import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
 
-import com.travelplaces.httpConnector.exception.ResponseException;
+import main.com.travelplaces.httpConnector.exception.ResponseException;
 
 /**
  * A class representing HttpConnections
@@ -68,7 +68,7 @@ public class HttpConnector
 	 * @param key
 	 * @param value
 	 */
-	public void addPostParameter(String key, String value)
+	public void addGetParameter(String key, String value)
 	{
 		if(this.parameters.equalsIgnoreCase(""))
 		{
@@ -78,6 +78,15 @@ public class HttpConnector
 		{
 			this.parameters += "&" + key + "=" + value; 
 		}
+	}
+	
+	/**
+	 * Return the POST parameters
+	 * @return parameters
+	 */
+	public String getGetParameters()
+	{
+		return this.parameters;
 	}
 	
 	/**
@@ -106,7 +115,7 @@ public class HttpConnector
 	 * @throws IOException
 	 * @throws ResponseException
 	 */
-	public String sendPOST() throws ProtocolException, IOException, ResponseException
+	public String sendGET() throws ProtocolException, IOException, ResponseException
 	{
 		conn.setRequestMethod("POST");
 		conn.setRequestProperty("User-Agent", this.userAgent);

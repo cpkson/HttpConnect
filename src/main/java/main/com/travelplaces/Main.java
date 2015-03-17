@@ -1,11 +1,11 @@
-package com.travelplaces;
+package main.com.travelplaces;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.ProtocolException;
 
-import com.travelplaces.httpConnector.HttpConnector;
-import com.travelplaces.httpConnector.exception.ResponseException;
+import main.com.travelplaces.httpConnector.HttpConnector;
+import main.com.travelplaces.httpConnector.exception.ResponseException;
 
 /**
  * This is the entry point to the program
@@ -23,6 +23,7 @@ public class Main
 	public static void main(String[] args)
 	{
 		HttpConnector connection = null;
+		
 		try
 		{
 			connection = new HttpConnector("https://www.eventsforce.net/travelplaces/frontend/xt/xtgetBookings.csp");
@@ -44,12 +45,12 @@ public class Main
 			System.exit(1);
 		}
 		
-		connection.addPostParameter("user", "auto@api.org");
-		connection.addPostParameter("psw", "R0v3r1994!M3tr0");
+		connection.addGetParameter("user", "testing");
+		connection.addGetParameter("psw", "testing");
 		
 		try
 		{
-			System.out.print(connection.sendPOST());
+			System.out.print(connection.sendGET());
 		}
 		catch (ProtocolException e)
 		{

@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.travelplaces</groupId>
-  <artifactId>EventsForceInterface</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>Scout Jamboree</name>
+  <artifactId>HttpConnector</artifactId>
+  <version>0.0.2</version>
+  <name>HttpConnector</name>
   <description>Interface between Events force and our back end using POST</description>
   
   
@@ -23,7 +23,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>lib/</classpathPrefix>
-              <mainClass>com.travelplaces.Main</mainClass>
+              <mainClass></mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -50,4 +50,12 @@
       </plugin>
     </plugins>
   </build>
+  
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+    </dependency>
+  </dependencies>
  </project>
