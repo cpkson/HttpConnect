@@ -1,4 +1,4 @@
-package main.com.travelplaces.httpConnector.exception;
+package co.uk.travelplaces.httpConnector.exception;
 
 /**
  * HTTPResponse code exception
