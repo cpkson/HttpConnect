@@ -23,7 +23,7 @@ public class HttpConnectorTest
 	 * method by checking the result returned
 	 * 
 	 */
-	@Test 
+	@Test
 	public void addGetParameterTest() 
 	{
 		HttpConnector connection = null;
