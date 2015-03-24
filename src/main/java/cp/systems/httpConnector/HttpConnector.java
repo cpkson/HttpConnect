@@ -1,4 +1,4 @@
-package co.uk.travelplaces.httpConnector;
+package cp.systems.httpConnector;
 
 /*
  * 
@@ -19,7 +19,7 @@ import java.net.URL;
 
 import javax.net.ssl.HttpsURLConnection;
 
-import co.uk.travelplaces.httpConnector.exception.ResponseException;
+import cp.systems.httpConnector.exception.ResponseException;
 
 /**
  * A class for creating HTTP connections to sites

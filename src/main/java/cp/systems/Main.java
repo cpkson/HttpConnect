@@ -1,4 +1,4 @@
-package co.uk.travelplaces;
+package cp.systems;
 
 /*
  * 
@@ -13,8 +13,8 @@ package co.uk.travelplaces;
 import java.io.IOException;
 import java.net.MalformedURLException;
 
-import co.uk.travelplaces.httpConnector.HttpConnector;
-import co.uk.travelplaces.httpConnector.exception.ResponseException;
+import cp.systems.httpConnector.HttpConnector;
+import cp.systems.httpConnector.exception.ResponseException;
 
 /**
  * Main Class

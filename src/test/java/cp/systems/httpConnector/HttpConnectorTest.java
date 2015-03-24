@@ -1,4 +1,4 @@
-package co.uk.travelplaces.httpConnector;
+package cp.systems.httpConnector;
 
 import static org.junit.Assert.*;
 
@@ -6,7 +6,7 @@ import java.net.MalformedURLException;
 
 import org.junit.Test;
 
-import co.uk.travelplaces.httpConnector.HttpConnector;
+import cp.systems.httpConnector.HttpConnector;
 
 /**
  * Unit test the HttpConnector Class
