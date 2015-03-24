@@ -13,8 +13,8 @@ package cp.systems;
 import java.io.IOException;
 import java.net.MalformedURLException;
 
-import cp.systems.httpConnector.HttpConnector;
-import cp.systems.httpConnector.exception.ResponseException;
+import cp.systems.httpConnect.HttpConnector;
+import cp.systems.httpConnect.exception.ResponseException;
 
 /**
  * Main Class

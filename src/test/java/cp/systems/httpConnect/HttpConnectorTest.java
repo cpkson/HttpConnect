@@ -1,4 +1,4 @@
-package cp.systems.httpConnector;
+package cp.systems.httpConnect;
 
 import static org.junit.Assert.*;
 
@@ -6,7 +6,7 @@ import java.net.MalformedURLException;
 
 import org.junit.Test;
 
-import cp.systems.httpConnector.HttpConnector;
+import cp.systems.httpConnect.HttpConnector;
 
 /**
  * Unit test the HttpConnector Class

@@ -1,4 +1,4 @@
-package cp.systems.httpConnector;
+package cp.systems.httpConnect;
 
 /*
  * 
@@ -19,7 +19,7 @@ import java.net.URL;
 
 import javax.net.ssl.HttpsURLConnection;
 
-import cp.systems.httpConnector.exception.ResponseException;
+import cp.systems.httpConnect.exception.ResponseException;
 
 /**
  * A class for creating HTTP connections to sites

@@ -1,4 +1,4 @@
-package cp.systems.httpConnector.exception;
+package cp.systems.httpConnect.exception;
 
 /**
  * HTTPResponse code exception

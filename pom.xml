@@ -1,12 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>cp.systems</groupId>
-  <artifactId>HttpConnector</artifactId>
+  <groupId>com.github.cpkson.HttpConnect</groupId>
+  <artifactId>HttpConnect</artifactId>
   <version>0.0.2</version>
+  <packaging>jar</packaging>
+  
   <name>HttpConnector</name>
-  <description>Interface between Events force and our back end using POST</description>
-  
-  
+  <description>a libary for simplified HTTP/S GET POST requests</description>
+ 
   <build>
     <resources>
       <resource>
