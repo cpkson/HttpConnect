@@ -19,7 +19,7 @@ import java.net.URL;
 
 import javax.net.ssl.HttpsURLConnection;
 
-import cp.systems.httpConnect.exception.ResponseException;
+import co.uk.travelplaces.exception.ResponseException;
 
 /**
  * A class for creating HTTP connections to sites

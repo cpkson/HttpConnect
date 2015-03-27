@@ -68,5 +68,10 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>co.uk.travelplaces</groupId>
+      <artifactId>Exceptions</artifactId>
+      <version>0.0.1</version>
+    </dependency>
   </dependencies>
  </project>
