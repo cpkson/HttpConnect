@@ -84,6 +84,7 @@ public class HttpConnector
 		this.postParameters = "";
 		this.userAgent = userAgent;
 		this.secure = secure;
+		this.acceptLanguage = acceptLanguage;
 	}
 	
 	/**
