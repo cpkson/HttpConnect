@@ -6,7 +6,7 @@ import java.net.MalformedURLException;
 
 import org.junit.Test;
 
-import cp.systems.httpConnect.HttpConnector;
+import uk.co.parknet.httpConnect.HttpConnector;
 
 /**
  * Unit test the HttpConnector Class
