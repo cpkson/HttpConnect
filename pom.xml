@@ -85,7 +85,7 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>co.uk.travelplaces</groupId>
+      <groupId>uk.co.parknet</groupId>
       <artifactId>exceptions</artifactId>
       <version>0.0.1</version>
     </dependency>

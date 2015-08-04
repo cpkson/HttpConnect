@@ -19,7 +19,7 @@ import java.net.URL;
 
 import javax.net.ssl.HttpsURLConnection;
 
-import co.uk.travelplaces.exception.ResponseException;
+import uk.co.parknet.exception.ResponseException;
 
 /**
  * A class for creating HTTP connections to sites
